@@ -23,5 +23,5 @@ def handle_upload(event: events.UploadEventArguments):
             with ui.element("div").classes("shadow-lg p-4 w-full"):
                 ui.label(text).classes("w-full")
             with ui.element("div"):
-                ui.label(get_sentiment(text)).classes("shadow-lg p-4 text-center h-full text-blue-400 text-5xl w-full")
+                ui.label(get_sentiment(text)).classes("shadow-lg p-4 text-center h-full text-blue-400 text-6xl font-black w-full")
         
