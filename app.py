@@ -13,4 +13,4 @@ ui.upload(auto_upload=True, on_upload=handle_upload).props("accept=.pdf color='b
 with ui.footer().classes("shadow-lg bg-[#03045e] mx-5 rounded-md"):
     ui.label("©2023 Daniel Boadzie")
 
-ui.run()
+ui.run(on_air=True)
